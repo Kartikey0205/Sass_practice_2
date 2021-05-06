@@ -1,0 +1,58 @@
+.btn {
+  display: inline-block;
+  padding: 5px 25px;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  background-color: #e64191;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-youtube, .btn-courses {
+  display: inline-block;
+  padding: 5px 25px;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  background-color: #E74292;
+  border: none;
+  cursor: pointer;
+}
+
+html {
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 45, 75, 0.5)), to(rgba(0, 0, 0, 0.7))), url("images/jakob-owens-CTflmHHVrBM-unsplash.jpg");
+  background-image: linear-gradient(to top, rgba(0, 45, 75, 0.5), rgba(0, 0, 0, 0.7)), url("images/jakob-owens-CTflmHHVrBM-unsplash.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body h1 {
+  color: #f3b431;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+body p {
+  color: #EAF0F1;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.container {
+  text-align: center;
+}
+
+.btn-youtube {
+  background-color: #e44236;
+}
+
+.btn-courses {
+  background-color: #4ae9ac;
+}
+/*# sourceMappingURL=about.css.map */

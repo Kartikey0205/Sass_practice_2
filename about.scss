@@ -1,0 +1,33 @@
+@import 'mixins';
+@import 'btn';
+html{
+    height: 100vh;
+    @include coverimage('images/jakob-owens-CTflmHHVrBM-unsplash.jpg')
+}
+
+body{
+    h1{
+        color: #f3b431;
+        margin-top: 5%;
+        text-align: center;
+        font-size: 3rem;
+    }
+    p{
+        color: #EAF0F1;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+.container{
+    text-align: center;
+}
+
+.btn-youtube{
+    @extend %btn;
+    background-color: #e44236;
+}
+.btn-courses{
+    @extend %btn;
+    background-color: #4ae9ac;
+}
